@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockholm 70 - Copycat</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+    <header class="header">
+        <h1 class="header__h1 h1">
+            <a href="https://stockholm70.qodeinteractive.com/" class="h1__a" title="logo">
+                <img src="assets/logo_header.png" alt="Logo del header" class="h1__img">
+            </a>
+        </h1>
+        <button class="header__button"> <!--Burguer Icon-->
+            <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li">
+                    <a href="https://stockholm70.qodeinteractive.com/" class="header__a" title="home">home</a>
+                </li>
+                <li class="header__li">
+                    <a href="https://stockholm70.qodeinteractive.com/about/" class="header__a" title="about">about</a>
+                </li>
+                <li class="header__li">
+                    <a href="https://stockholm70.qodeinteractive.com/contact/" class="header__a"
+                        title="contact">contact</a>
+                </li>
+                <li class="header__li">
+                    <a href="https://stockholm70.qodeinteractive.com/pricing/" class="header__a"
+                        title="pricing">pricing</a>
+                </li>
+                <li class="header__li">
+                    <button class="header__dots"> <!--Botón del menú desplegable de la derecha-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="dots"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!-- HEADER -->
+
+<!--Menú desplegable de la derecha-->
+    <div class="slider"> 
+        <div class="slider__button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="slider__x"
+                viewBox="0 0 16 16">
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+            </svg>
+        </div>
+        <div class="slider__logo">
+            <img src="assets/logo__footer.png" alt="Logo del slider" class="slider__img" loading="lazy">
+        </div>
+        <h2 class="slider__h2">Superb sound</h2>
+        <p class="slider__p">Lorem ipsum dolor sit amet, pri no fugit libris regione, te noster officiis sensibus
+            pri, nonumy tritani vulputate vix in. Ius illud voluptua te, eam unum error cu.</p>
+        <ul class="slider__ul">
+            <li class="slider__li">
+                <a href="https://twitter.com/QodeInteractive" class="slider__a" target="_blank" rel="noreferrer"
+                    title="twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="twitter"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                    </svg>
+                </a>
+            </li>
+            <li class="slider__li">
+                <a href="https://www.facebook.com/QodeInteractive/" class="slider__a" target="_blank" rel="noreferrer"
+                    title="facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="facebook"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                </a>
+            </li>
+            <li class="slider__li">
+                <a href="https://www.linkedin.com/company/qode-themes/" class="slider__a" target="_blank"
+                    rel="noreferrer" title="linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="linkedin"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--Menú desplegable de la derecha-->
+
+    <main>
+
+        <!-- GRID CON TODAS LAS SECCIONES -->
+        <div class="grid">
+            <!-- Grid1 - Headphones -->
+            <div class="grid__hear hear">
+                <h2 class="hear__h2">Hear the music</h2>
+                <p class="hear__p">Laoreet id donec ultrices tincidunt arcu non sodales neque sodales diam phasellus
+                    vestibulum lorem ultricies oi.</p>
+                <a href="#" class="hear__a" title="shop now">shop now</a>
+            </div>
+            <!-- Grid2 - APP CTA -->
+            <div class="grid__app app">
+                <h2 class="app__h2">Get the app for your phone</h2>
+                <a href="#" class="app__a" title="shop now">shop now</a>
+            </div>
+            <!-- Grid3 - Video -->
+            <div class="grid__video video">
+                <img src="assets/video-button.png" alt="Botón de play" class="video__img">
+                <img src="assets/video-button-2.png" alt="Botón de play al hacer hover" class="video__img switch"> <!--Esta es la imágen que aparece como botón de play al hacer HOVER-->
+            </div>
+            <!-- Grid3 - Video > Lightbox -->
+            <div class="lightbox">
+                <iframe class="lightbox__iframe" title="vimeo-player"
+                    src="https://player.vimeo.com/video/450249313?h=1e3ccafbfe" width="960" height="540"
+                    allowfullscreen></iframe>
+            </div>
+            <!-- Grid4 - Testimonials -->
+            <div class="grid__test test">
+                <h3 class="test__h3">What they say</h3>
+                <div class="test__container">
+                    <div class="test__people nina active">
+                        <p class="test__p">Etiam sodales ut sit amet nisl. Maecenas accumsan lacus Et netus et malesuada
+                            fames ac turpis. Egestas integer eget. Malesuada nunc vel risus commodo.
+                        </p>
+                        <span class="test__name">Nina Torino</span>
+                        <span class="test__job">HR Specialist</span>
+                    </div>
+                    <div class="test__people sasha">
+                        <p class="test__p">Etiam sodales ut sit amet nisl. Egestas integer eget. Malesuada nunc vel
+                            risus
+                            commodo viverra maecenas accumsan lacus Et netus et malesuada fames ac turpis.
+                        </p>
+                        <span class="test__name">Sasha James</span>
+                        <span class="test__job">Designer</span>
+                    </div>
+                    <div class="test__people amanda">
+                        <p class="test__p">Sodales ut etiam sit amet nisl. Et netus et malesuada fames ac turpis egestas
+                            integer eget. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus.
+                        </p>
+                        <span class="test__name">Amanda Dean</span>
+                        <span class="test__job">Copywriter</span>
+                    </div>
+                </div>
+                <ul class="test__ul">
+                    <li class="test__li">
+                        <button class="test__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="test__dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="test__li">
+                        <button class="test__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="test__dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="test__li">
+                        <button class="test__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="test__dot" viewBox="0 0 16 16">
+                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- Grid5 - Map -->
+            <div class="grid__map map">
+                <iframe class="map__iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.47787002331!2d2.0577886975879345!3d41.39276734238772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona!5e0!3m2!1ses!2ses!4v1701985737057!5m2!1ses!2ses"
+                    style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Grid6 - Superb -->
+            <div class="grid__hear superb">
+                <h2 class="hear__h2">Superb sound</h2>
+                <p class="hear__p">Laoreet id donec ultrices tincidunt arcu non sodales neque sodales diam phasellus
+                    vestibulum lorem ultricies oi.</p>
+                <a href="https://stockholm70.qodeinteractive.com/product/headphones-s-1/" class="hear__a"
+                    title="shop now">shop
+                    now</a>
+            </div>
+            <!-- Grid7 - Image running -->
+            <img src="assets/main_img_2.jpg" alt="Running Img" class="grid__img" height="800" width="800"
+                loading="lazy">
+            <!-- Grid8 - Statement -->
+            <div class="grid__statement statement">
+                <div class="statement__logo">
+                    <img src="assets/wave_icon.png" alt="Wave Icon" class="statement__img" loading="lazy">
+                </div>
+                <h3 class="statement__h3">New wave</h3>
+                <p class="statemente__p">Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper incidunt
+                    tortor nulla facilisi cras.
+                </p>
+            </div>
+        </div>
+        <!-- GRID CON TODAS LAS SECCIONES -->
+
+        <!-- Newsletter Form -->
+        <div class="newsletter">
+            <div class="newsletter__wrapper">
+                <h2 class="newsletter__h2">Newsletter</h2>
+                <form class="newsletter__form" action="#" method="post">
+                    <input type="email" class="newsletter__input" name="user_email" placeholder="Your e-mail" required>
+                    <button class="newsletter__btn" type="submit">
+                        <svg class="newsletter__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+        <!-- Newsletter Form -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__logo">
+            <h2 class="footer__h2">
+                <img src="assets/logo__footer.png" alt="Logo footer" class="footer__img" loading="lazy">
+            </h2>
+            <a href="https://qodeinteractive.com/?_gl=1*rp5p0n*_gcl_au*MTY1NjMwMjQ5OC4xNjk4MzQ2MjM5&_ga=2.234167767.87998673.1701622512-691920409.1698346239"
+                class="footer__copy" title="Copyright">© Copyright Qode Interactive</a>
+        </div>
+        <nav class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="shop">shop</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a"
+                        title="shipping & delivery">shipping & delivery</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="privacy policy">privacy
+                        policy</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a"
+                        title="terms & conditions">terms & conditions</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="faqs">faqs</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="footer__nav followup">
+            <ul class="footer__ul">
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="my account">my
+                        account</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="checkout">checkout</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="order tracking">order
+                        tracking</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="help & support">help &
+                        support</a>
+                </li>
+                <li class="footer__li">
+                    <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a" title="online stores">online
+                        stores</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__rrsswrap">
+            <nav class="footer__nav final">
+                <ul class="footer__ul">
+                    <li class="footer__li">
+                        <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a"
+                            title="returns & refunds">returns & refunds</a>
+                    </li>
+                    <li class="footer__li">
+                        <a href="https://stockholm70.qodeinteractive.com/#" class="footer__a"
+                            title="help & contact us">help & contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__rrss rrss">
+                <li class="rrss__li">
+                    <a href="https://twitter.com/QodeInteractive" class="rrss__a" target="_blank" rel="noreferrer"
+                        title="twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="rrss__li">
+                    <a href="https://www.facebook.com/QodeInteractive/" class="rrss__a" target="_blank" rel="noreferrer"
+                        title="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="rrss__li">
+                    <a href="https://www.linkedin.com/company/qode-themes/" class="rrss__a" target="_blank"
+                        rel="noreferrer" title="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
